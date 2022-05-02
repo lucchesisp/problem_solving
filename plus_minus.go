@@ -8,6 +8,7 @@ func main() {
     plus_minus([]int32{-4, 3, -9, 0, 4, 1})
 }
 
+// https://www.hackerrank.com/challenges/plus-minus/problem
 func plus_minus(arr []int32) {
 	var positiveCounter, negativeCounter, zeroCounter float64
     var size float64 = float64(len(arr))
