@@ -1,7 +1,11 @@
 package main
 
+import (
+    "fmt"
+)
+
 func main() {
-    plus_minus()
+    plus_minus([]int32{-4, 3, -9, 0, 4, 1})
 }
 
 func plus_minus(arr []int32) {
